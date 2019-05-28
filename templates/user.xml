@@ -5,4 +5,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="paneljson" value="&quot;panel.$dir$&quot;:{&#10;    &quot;main&quot;:&quot;panel-$dir$/index.js&quot;,&#10;    &quot;type&quot;:&quot;dockable&quot;,&#10;    &quot;title&quot;:&quot;$title$&quot;&#10;}," toReformat="false" toShortenFQNames="true">
+    <variable name="dir" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
 </templateSet>
