@@ -12,7 +12,7 @@
       <option name="JSON" value="true" />
     </context>
   </template>
-  <template name="mycomp" value="let Core = Editor.require(&quot;packages://avg-editor/core/core.js&quot;);&#10;const Msg = Editor.require('packages://avg-editor/core/msg.js');&#10;&#10;module.exports = function () {&#10;    Vue.component(&quot;&quot;, {&#10;        props: [],&#10;        template: Core.loadFile(&quot;panel-$url$.html&quot;),&#10;        data() {&#10;            return {}&#10;        },&#10;        directives: {},&#10;        created() {&#10;&#10;        },&#10;        methods: {}&#10;    })&#10;};&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="mycomp" value="let Core = Editor.require(&quot;packages://avg-editor/core/core.js&quot;);&#10;const Msg = Editor.require('packages://avg-editor/core/msg.js');&#10;&#10;module.exports = function () {&#10;    Vue.component(&quot;&quot;, {&#10;        props: [],&#10;        template: Core.loadFile(&quot;panel-$url$.html&quot;),&#10;        data() {&#10;            return {}&#10;        },&#10;        directives: {},&#10;        created() {&#10;&#10;        },&#10;        methods: {}&#10;    })&#10;};&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
